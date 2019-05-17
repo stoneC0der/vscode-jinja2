@@ -1,0 +1,46 @@
+{
+    "name": "jinja2",
+    "displayName": "Jinja2",
+    "description": "Syntax highliting for Jinja2",
+    "icon": "images/jinja-small.png",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.34.0"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/stoneC0der/vscode-jinja2/issues",
+        "email": "stonecodersoft@gmail.com"
+    },
+    "homepage": "https://github.com/stoneC0der/vscode-jinja2",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stoneC0der/vscode-jinja2.git"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+      "python",
+      "jinja2",
+      "html",
+      "template"
+  ],
+  "galleryBanner": {
+      "color": "#3F3F3F",
+      "theme": "dark"
+  },
+    "contributes": {
+        "languages": [{
+            "id": "jinja",
+            "aliases": ["HTML (Jinja2)", "jinja2"],
+            "extensions": [".jinja2",".html.jinja2"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "jinja",
+            "scopeName": "text.html.jinja2",
+            "path": "./syntaxes/jinja.tmLanguage"
+        }]
+    }
+}
