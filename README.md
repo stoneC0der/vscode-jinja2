@@ -1,18 +1,8 @@
 # Jinja2 README
 
-Syntax highlighting for Jinja2 files.
-
-## Features
-
-Syntax highlighting for Jinja2 files.
+VS code extension to provide syntax highlighting for Jinja2 files.
 
 <!-- \!\[feature X\]\(images/jinja-small.png\) -->
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
 ## Extension Settings
 
@@ -22,7 +12,7 @@ If you want emmet in .jinja files, add the following to setting.json
 
     "emmet.showExpandedAbbreviation": "always",
     "emmet.includeLanguages": {
-      "jinja": "html",
+      "jinja2": "html",
     }  
 
 ## Known Issues
@@ -31,26 +21,14 @@ Calling out known issues can help limit users opening duplicate issues against y
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-<!-- ### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z. -->
+Initial release
 
 -----------------------------------------------------------------------------------------------------------
 
 ### Inspired by
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+* [Whatweo/vscode-twig](https://github.com/whatwedo/vscode-twig)
 
 **Enjoy!**
-# vscode-jinja2
