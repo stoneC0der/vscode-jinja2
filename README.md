@@ -2,7 +2,7 @@
 
 VS code extension to provide syntax highlighting for Jinja2 files.
 
-<!-- \!\[feature X\]\(images/jinja-small.png\) -->
+\!\[feature X\]\(images/jinja2.png\)
 
 ## Extension Settings
 
