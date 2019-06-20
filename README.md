@@ -29,6 +29,6 @@ Initial release
 
 ### Inspired by
 
-* [Whatweo/vscode-twig](https://github.com/whatwedo/vscode-twig)
+* [Whatwedo/vscode-twig](https://github.com/whatwedo/vscode-twig, "Whatwedo vscode-twig")
 
 **Enjoy!**
